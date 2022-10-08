@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preference_alert_frequency_labels">
+        <item>New Alerts Only</item>
+        <item>10 Seconds</item>
+        <item>20 Seconds</item>
+        <item>30 Seconds</item>
+        <item>40 Seconds</item>
+        <item>50 Seconds</item>
+        <item>60 Seconds</item>
+    </string-array>
+    <string-array name="preference_alert_frequency_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="preference_escalation_time_labels">
+        <item>All Alerts</item>
+        <item>20 Seconds</item>
+        <item>40 Seconds</item>
+        <item>60 Seconds</item>
+    </string-array>
+    <string-array name="preference_escalation_time_values">
+        <item>0</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="User Settings">
+        <EditTextPreference
+            android:key="escalation_seconds_key"
+            android:title="@string/escalation_time_title"
+            android:dialogTitle="@string/escalation_time_prompt"/>
+<!--
+        <DropDownPreference
+            android:key="preference_alert_frequency"
+            android:title="@string/alert_frequency_title"
+            android:entries="@array/preference_alert_frequency_labels"
+            android:entryValues="@array/preference_alert_frequency_values"/>
+            -->
+
+        <!--
+        <SwitchPreferenceCompat
+            android:key="duration_switch"
+            android:title="@string/duration_switch_title" />
+            -->
+
+        <Preference
+            android:key="preference_version"
+            android:title="@string/preference_version" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
